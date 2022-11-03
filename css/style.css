@@ -33,24 +33,6 @@
 
    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
    nav ul{
      float: right;
@@ -264,7 +246,13 @@
      margin-left: 10px;
    }
    /* ==========begining fixed========================================= */
-   
+   @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+   .beforlast1{
+     height: 250px;
+     font-family: 'Cairo';
+     font-size: 40px;
+    
+   }
 
   /* ==========================defination company secand Div ============================ */
   .defination{
@@ -598,15 +586,6 @@
       height: 0;
   }
 }
-
-
-
-
-
-
-
-
-
 
 
    
