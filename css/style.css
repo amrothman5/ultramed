@@ -1180,6 +1180,38 @@ box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
      }
 
 
+/* ========================================================== */
+.form-container{
+  background: #ecf0f3;
+  font-family: 'Nunito', sans-serif;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.form-container .form-icon{
+  color: #ac40ab;
+  font-size: 55px;
+  text-align: center;
+  line-height: 100px;
+  width: 100px;
+  height:100px;
+  margin: 0 auto 15px;
+  border-radius: 50px;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px #fff;
+}
+.form-container .title1{
+  color: #ac40ab;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+
+
+
      /* ============About page========================== */
      .about1{
        position: relative;
@@ -1458,12 +1490,12 @@ box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
       width: 85%;
       margin: 100px 0px 100px 20px ;
   }
-  .sub{
+  /* .sub{
       margin-top: 10px;
-      margin-left: 100px;
+      margin-left: 300px;
       box-sizing: border-box;
 
-  }
+  } */
   /* ======================================= */
 
   /* .packing{
