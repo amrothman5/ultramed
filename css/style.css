@@ -823,38 +823,38 @@ box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
 
 
 /* ==========text defination===================== */
+.demo{ background-color: #151d34; }
 .text-effect{
-  color: transparent;
-  background: linear-gradient(rgb(26, 14, 74) 30%, white, rgb(27, 19, 117) 70%);
-  font-family: 'Orbitron', sans-serif;
-  font-size: 100px;
-  text-align: center;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-stroke: 2px #fff;
-  -moz-text-stroke: 2px #fff;
-  text-stroke: 2px #fff;
-  filter: drop-shadow(0 0 1px rgb(15, 22, 101))drop-shadow(0 0 1px rgb(33, 14, 140))drop-shadow(0 0 1px black);
-  animation: bg-shift .5s linear infinite alternate, bounceInLeft 4s ease-in-out forwards ;
+    background: linear-gradient(to right,#387cdf 50%, #fff 40%);
+    background-size: 200% auto;
+    /* font-family: 'Oleo Script', cursive; */
+    /* font-size: 100px; */
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: relative;
+    animation: animate 1.5s alternate linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-@keyframes bg-shift{
-  from{ background-position: 0 -30px; }
-  to{ background-position: 0 30px;  }
+@keyframes animate{
+  100%{
+      background-position: 200% center;
+      transform: scale(1.05,1.05);
+  }
 }
-@keyframes fade-in-out{
-  0%{ filter:drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)blur(200px); }
-  25%{ filter:drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)blur(0); }
-  75%{ filter:drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)blur(0); }
-  100%{ filter:drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)blur(200px); }
+@media only screen and (max-width: 990px){
+  .text-effect{ font-size: 70px; }
 }
-
-
-
-
-
-
-
+@media only screen and (max-width: 767px){
+  .text-effect{ font-size: 46px; }
+}
+@media only screen and (max-width: 479px){
+  .text-effect{ font-size: 40px; }
+}
+@media only screen and (max-width: 359px){
+  .text-effect{ font-size: 30px; }
+}
 
  /* ========================fixed position 2============================ */
     .mask2{
