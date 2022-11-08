@@ -933,7 +933,7 @@ box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
         font-size: 16px;
       }
 
-      .packing{
+      /* .packing{
         position: relative;
         text-align: center;
         top: 150px;
@@ -975,7 +975,7 @@ box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
       margin-left: 100px;
       text-align: justify;
       line-height: 35px;
-      font-family: 'Zen Antique', serif;      /* font-family: 'Zen Antique', serif; */
+      font-family: 'Zen Antique', serif;      
       }
       .packing_text1{
         margin-left: 200px;
@@ -992,7 +992,7 @@ box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
       }
       .packing_text  a{
         margin:40%;
-      }
+      } */
 
 
 
