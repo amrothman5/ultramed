@@ -15,6 +15,7 @@ const buttons = document.querySelectorAll("a");
 
 
 
+
         //  ==========full Screen===========================================
          document.querySelectorAll(".photoCI").forEach( imageCI =>{
           imageCI.onclick = ( ) =>{
@@ -47,6 +48,3 @@ previewBox.forEach(close =>{
     preveiwContainer.style.display = 'none';
   };
 });
-
-
-

@@ -108,6 +108,40 @@
        left: 0;
      }
    }
+
+/* ============================================== */
+
+.fullScreen{
+  position: absolute;
+  background: fixed;
+  background-color: rgba(3, 3, 3, 0.384);
+  height:60%;
+  width: 60%;
+  margin: 200px 350px;
+  z-index: 2;
+}
+.fullScreen2{
+  position: absolute;
+  background: fixed;
+  background-color: rgba(3, 3, 3, 0.616);
+  margin: 0px auto;
+  z-index: 5;
+}
+.fullScreen  .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left:50px;
+  z-index:3;
+}
+.closebtn{
+  color: whitesmoke;
+  padding-left: 100px;
+  box-sizing: border-box;
+  z-index:3;
+}
+
 /* ===========start Nav button===================== */
 
    .btns a > span{
