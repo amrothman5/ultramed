@@ -1,3 +1,23 @@
+$(document).ready(function(){
+
+  $(".closebtn").click(function(){
+
+    $(".ads").hide(1000);
+
+  })
+    
+  });
+
+
+
+
+
+
+
+
+
+
+
 const buttons = document.querySelectorAll("a");
          buttons.forEach((button) => {
            button.onclick = function(e){
@@ -48,3 +68,5 @@ previewBox.forEach(close =>{
     preveiwContainer.style.display = 'none';
   };
 });
+
+
