@@ -103,8 +103,9 @@ font-weight: bold;
 
 }
 .sub-ads{
-  height: 400px;
-  background-image: url("/img/download.jfif");
+  height: 250px;
+  background-color: #090a31;
+  /* background-image: url("/img/download.jfif"); */
   /* background-repeat: no-repeat; */
   /* background: whitesmoke; */
   margin: 10% auto;
@@ -141,16 +142,16 @@ font-weight: bold;
    @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
   .ads-title{
     font-weight: bold;
-    font-size: 30px;
-    padding-left: 50px;
-    color: blue;
+    font-size: 18px;
+    padding-left: 30px;
+    color: whitesmoke;
     }
     .ads-title2{
-      font-size: 40px;
+      font-size: 25px;
       font-weight:bold;
-      padding: 150px 0px 20px 140px;
-      color: rgb(10, 10, 120);
-
+      padding: 0px 0px 5px 40px;
+      color: whitesmoke;
+      text-decoration: underline;
     }
 
 
